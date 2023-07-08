@@ -19,27 +19,123 @@
 }
 #firstHalf{
     background-color:hsl(241, 81%, 54%);
+    background-image: linear-gradient( hsl(252, 100%, 67%),  hsl(241, 81%, 54%));
 }
 #secondHalf{
     background-color:white;
 }
-#firstHalfTable{
-    color:hsl(241, 100%, 89%);
+#score{
+    color: hsla(0, 0%, 100%, 0.575);
+    background-color:hsla(241, 81%, 54%,0.4);
+    height:100px;
+    width:130px;
+    border-radius:50%;
+    padding-top:20px;
+    align-items:center;
+}
+#compliment{
+    font-weight:bold;
+    font-size:1.5em;
+}
+#mainScore{
+    font-weight:bold;
+    font-size:3em;
+}
+#heading{
+    font-size:1.2em;
+}
+#summary{
+    text-align:left;
+    padding-top:5px;
+    padding-left:10px;
+    color:grey;
+    font-size:1.4em;
+    font-weight:bold;
+}
+#Reaction{
+    margin-top:10px;
+    width:200px;
+    background-color:hsla(0, 100%, 67%,0.3);
+    border-radius:15px;
+    margin-left:20px;
+    padding-left:4px;
+}
+#Reaction,#Memory,#Verbal,#Visual{
+    height:40px;
+    padding-top:5px;
+    padding-right:10px;
+    padding-left:5px;
+}
+#ReactionLeft,#MemoryLeft,#VerbalLeft,#VisualLeft{
+    text-align:left;
+    float:left;
+}
+#ReactionRight,#MemoryRight,#VerbalRight,#VisualRight{
+    text-align:right;
+    margin-top:5px;
+}
+#Memory{
+    margin-top:10px;
+    width:200px;
+    background-color:hsla(39, 100%, 56%,0.3);
+    border-radius:15px;
+    margin-left:20px;
+}
+#Verbal{
+    margin-top:10px;
+    width:200px;
+    background-color: hsla(166, 100%, 37%,0.3);
+    border-radius:15px;
+    margin-left:20px;
+}
+#Visual{
+    margin-top:10px;
+    width:200px;
+    background-color:hsla(234, 85%, 45%,0.3);
+    border-radius:15px;
+    margin-left:20px;
+}
+#continueButton{
+    margin-top:20px;
+    padding-top:12px;
+    align-items:center;
+    width:200px;
+    height:30px;
+    background-color:grey;
+    color:white;
+    font-weight:bold;
+    border-radius:20px;
+    margin-left:25px;
+}
+#resultsSummary{
+    display:flex;
+    justify-items:center;
+    padding-left:100px;
 }
 .commonForfirstHalfAndsecondHalf{
     border-radius:20px;
-    max-width:300px;
+    width:250px;
     padding:10px;
     float:left;
-    height:300px;
+    height:320px;
     text-align:center;
 }
 .attribution{
     font-family: 'Hanken Grotesk', sans-serif;
     margin-top:10px;
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
 }
 .attribution a {
     color: hsl(228, 45%, 44%); 
     text-decoration:none;
+}
+.insideFirstHalf{
+    text-align:center;
+    justify-content:center;
+    align-items:center; 
+    display:flex;
+    width:250px;
+    padding-top:13px;
+    color:white;
 }
